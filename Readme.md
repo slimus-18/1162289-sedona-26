@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/26/user/1162289).
-* Наставник: `Неизвестно`.
+* Студент: [Айсултан Токбаев](https://up.htmlacademy.ru/htmlcss/26/user/1162289).
+* Наставник: [Дмитрий Могиль](https://up.htmlacademy.ru/htmlcss/26/user/398003)
 
 ---
 
