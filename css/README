@@ -5,5 +5,5 @@
 Пример структуры файлов:
 
 css/
-| - style.css
-| - [другие *.css файлы]
+   style.css
+   normalize.css
