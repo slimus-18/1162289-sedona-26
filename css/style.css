@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+background-color: #ffffff;
+  background-image: url("img/background_photo.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  font: inherit;
+
+  text-align: center;
+  color: #000000;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+  border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #663d15;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover
+.site-navigation a:focus {
+  background-color: #242424;
+}
+
+.feature {
+  color: #000000;
+
+  background-color: #f8f5f2;
+  background-image: url("");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.feature-item {
+  text-align: justify;
+}
+
+.feature-item h3 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.feature-item.img {
+  font-size: 30px;
+  line-height: 42px;
+  list-style: none;
+  background-color: #cccccc;
+  border: 7px solid #ffffff
+}
+
+.feature h3 {
+  font-size: 30px;
+  line-height: 42px;
+  list-style: none;
+}
+
+.appointment-item input {
+  font: inherit;
+
+  background-color: transparent;
+  border: 2px solid #000000;
+}
+
+.appointment-item input:focus {
+  border-color: #663d15;
+}
+
+.main-footer {
+  color: #000000;
+
+  background-color: #ffffff;
+  background-image: url("");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: #ffffff;
+
+  background-color: #000000;
+}
+
+.modal {
+display: none;
+  color: #000000;
+
+  background-color: #f8f3f0;
+  background-image: url("img/pattern-light.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
