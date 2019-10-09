@@ -2,10 +2,10 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
-  line-height: 24px;
-  font-weight: 700;
+  line-height: 26px;
+  font-weight: 400px;
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -28,19 +28,19 @@ a {
   vertical-align: middle;
   text-transform: uppercase;
 
-  background-color: #ffffff;
+  background-color: #81b3d2;
   border: none;
 }
 
 .button:hover,
 .button:focus,
 .button:active {
-  background-color: #663d15;
+  background-color: #558fb3;
 }
 
 .main-navigation {
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 26px;
   color: #000000;
 
   background-color: #ffffff;
@@ -59,40 +59,51 @@ a {
   background-color: #242424;
 }
 
-.feature {
+.features {
   color: #000000;
 
-  background-color: #f8f5f2;
-  background-image: url("");
+  background-color: #81b3d2;
   background-position: 0 0;
   background-repeat: repeat;
 }
 
-.features-list {
+.features.img {
+  font-size: 800px;
+  line-height: 400px;
   list-style: none;
+  background-color: #ffffff;
+}
+
+.features-list white {
+  list-style: none;
+  background-color: #ffffff;
+}
+
+.features-list gray {
+  list-style: none;
+  background-color: #eeeeee;
 }
 
 .feature-item {
   text-align: justify;
 }
 
-.feature-item h3 {
-  font-size: 30px;
-  line-height: 42px;
-}
-
 .feature-item.img {
-  font-size: 30px;
-  line-height: 42px;
+  font-size: 75px;
+  line-height: 72px;
   list-style: none;
-  background-color: #cccccc;
-  border: 7px solid #ffffff
+  background-color: #ffffff;
 }
 
 .feature h3 {
-  font-size: 30px;
-  line-height: 42px;
+  font-size: 21px;
+  line-height: 26px;
   list-style: none;
+}
+
+.feature-item h3 {
+  font-size: 14px;
+  line-height: 26px;
 }
 
 .appointment-item input {
@@ -103,7 +114,7 @@ a {
 }
 
 .appointment-item input:focus {
-  border-color: #663d15;
+  border-color: #558fb3;
 }
 
 .main-footer {
@@ -123,15 +134,6 @@ a {
 .footer-copyright .button:focus {
   color: #ffffff;
 
-  background-color: #000000;
-}
+  background-color: #81b3d2;
 
-.modal {
-display: none;
-  color: #000000;
-
-  background-color: #f8f3f0;
-  background-image: url("img/pattern-light.jpg");
-  background-position: 0 0;
-  background-repeat: repeat;
 }
