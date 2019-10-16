@@ -1,0 +1,76 @@
+body flex {
+  min-width: 1202px;
+  min-height: 932px;
+}
+
+.container {
+  width: 1202px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  margin-bottom: 75px;
+  min-height: 56px;
+  background-color: #ffffff;
+}
+
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+  min-height: 591px;
+  background-color: transparent;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.main-navigation-wrapper {
+  width: 100%;
+  margin-bottom: 76px;
+  min-height: 56px;
+  background-color: transparent;
+}
+
+.main-navigation-wrapper .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-navigation {
+    width: 1200px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  min-height: 56px;
+}
+
+.forms-hotels {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forms-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.forms-item {
+  width: 1200px;
+  min-height: 153px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+.main-footer {
+   margin-top: 0px;
+   background-color: #ffffff;
+   min-height: 120px;
+}
+
+.footer-copyright {
+  width: 150px;
+  margin: 0;
+  margin-left: auto;
